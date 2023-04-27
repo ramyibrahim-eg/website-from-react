@@ -1,0 +1,118 @@
+/* All Rights Reserved. © disgin.website */
+
+.plans__container {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 3rem !important;
+}
+
+.plan h3 {
+  margin-bottom: 0.8rem !important;
+}
+
+.plan small {
+  margin-bottom: 2rem !important;
+}
+
+.plan h1 {
+  color: var(--c-p-v) !important;
+  display: inline !important;
+}
+
+.plan h2 {
+  display: inline !important;
+  color: var(--c-g-400) !important;
+}
+
+.plan h4 {
+  margin-top: 2rem !important;
+}
+
+.plan p {
+  margin-top: 1rem !important;
+  color: var(--c-g-100) !important;
+}
+
+.plan p.disabled {
+  color: var(--c-g-400) !important;
+}
+
+.plan button {
+  margin-top: 3rem !important;
+  cursor: pointer !important;
+}
+
+.plan .red {
+  background: #8d0000 !important;
+}
+
+.all__div__cart {
+  display: flex !important;
+  align-items: center !important;
+  flex-direction: column !important;
+}
+
+.all__div__cart p {
+  margin: 0 !important;
+}
+
+.div__button__cart {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 1rem !important;
+  font-size: 1.5rem !important;
+  margin-top: 3rem !important;
+}
+
+.button__cart {
+  font-size: 2rem !important;
+  color: var(--c-g-100) !important;
+  width: fit-content !important;
+  padding: 0.2rem 1rem !important;
+  background: var(--c-p) !important;
+  border-radius: 1.5rem !important;
+  margin: 0 !important;
+}
+
+/* //////////////////Plans//////////////////// */
+@media screen and (max-width: 1024px) {
+  .plans__container {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 2rem !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .plans__container {
+    grid-template-columns: 1fr !important;
+  }
+  .plan {
+    width: 90% !important;
+    margin-inline: auto !important;
+  }
+}
+
+.circle__remove {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #8d0000;
+  padding: 18px !important;
+  color: var(--c-g-100);
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 3rem;
+}
+
+.hstack {
+  border: 1px solid var(--bs-body-bg) !important;
+  border-radius: 5px !important;
+  padding: 5px 10px !important;
+  font-size: 1.1rem !important;
+}
+
+.offcanvas-header {
+  margin-bottom: 1.5rem !important;
+}

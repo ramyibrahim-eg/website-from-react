@@ -1,0 +1,11 @@
+/* All Rights Reserved. © disgin.website */
+
+.notfound__container {
+  text-align: center !important;
+  padding-top: 8rem !important;
+}
+
+.notfound__container .btn {
+  margin-top: 2rem !important;
+  display: inline-block !important;
+}

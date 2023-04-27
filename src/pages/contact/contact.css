@@ -1,0 +1,37 @@
+/* All Rights Reserved. © disgin.website */
+
+.contact__container {
+  display: grid !important;
+  place-items: center !important;
+}
+
+.contact__wrapper {
+  width: fit-content !important;
+  display: flex !important;
+  gap: 2rem !important;
+}
+
+.contact__wrapper a {
+  background: var(--c-p) !important;
+  font-size: 2rem !important;
+  border: 2rem solid var(--t) !important;
+  padding: 2rem !important;
+  border-radius: 1.5rem !important;
+}
+
+.contact__wrapper a:hover {
+  background: transparent !important;
+  border-color: var(--c-g-100) !important;
+}
+
+/* //////////////////MEDIA QUERIES//////////////////// */
+@media screen and (max-width: 600px) {
+  .contact__wrapper {
+    gap: 1.5rem !important;
+  }
+  .contact__wrapper a {
+    padding: 1rem !important;
+    font-size: 1.2rem !important;
+    border-radius: 1rem !important;
+  }
+}

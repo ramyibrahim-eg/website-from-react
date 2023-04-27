@@ -1,0 +1,464 @@
+/* All Rights Reserved. © disgin.website */
+
+/* ////////////////////////////////main__header////////////////////////////////// */
+.main__header {
+  width: 100vw !important;
+  height: calc(100vh - 3rem) !important;
+  display: grid !important;
+  place-items: center !important;
+  margin-top: 3rem !important;
+}
+
+.main__header-container {
+  height: 100% !important;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 6rem !important;
+}
+
+.main__header-left {
+  margin-top: -3rem !important;
+}
+
+.main__header-left h4 {
+  margin-bottom: 1rem !important;
+  color: var(--c-p) !important;
+  font-weight: 400 !important;
+}
+
+.main__header-left p {
+  margin: 1rem 0 3.5rem !important;
+  font-size: 1.1rem !important;
+}
+
+.main__header-right {
+  display: grid !important;
+  place-items: center !important;
+  position: relative !important;
+}
+
+.main__header-circle {
+  width: 25rem !important;
+  height: 25rem !important;
+  background: linear-gradient(75deg, var(--c-s), transparent) !important;
+  border-radius: 50% !important;
+  position: absolute !important;
+  filter: blur(10px) !important;
+  transition: var(--t) !important;
+}
+
+.main__header-image {
+  position: relative !important;
+}
+
+.main__header-right:hover .main__header-circle {
+  filter: blur(0) !important;
+}
+
+/* ////////////////////////////section/////////////////////////// */
+
+section {
+  margin-top: 10rem !important;
+}
+
+.section__head {
+  display: flex !important;
+  align-items: center !important;
+  gap: 1rem !important;
+}
+
+.section__head span {
+  background: var(--c-g-500) !important;
+  padding: 0.8rem !important;
+  border-radius: 1rem !important;
+  color: var(--c-s) !important;
+  font-size: 1.5rem !important;
+}
+
+/* ////////////////////////////card///////////////////////////// */
+
+.card {
+  background: var(--c-g-500) !important;
+  border: 2px solid transparent !important;
+  text-align: center !important;
+  padding: 3rem 2rem !important;
+  border-radius: 0 3rem 0 3rem !important;
+  transition: var(--t) !important;
+}
+
+.card:hover {
+  background: transparent !important;
+  border-color: var(--c-g-400) !important;
+  cursor: default !important;
+}
+
+.card span {
+  width: 3rem !important;
+  height: 3rem !important;
+  background: var(--c-p) !important;
+  color: var(--c-g-100) !important;
+  font-size: 1.5rem !important;
+  padding: 0.8rem !important;
+  display: grid !important;
+  place-items: center !important;
+  margin-bottom: 1.5rem !important;
+  margin-inline: auto !important;
+  border-radius: 1rem !important;
+  transition: var(--t) !important;
+}
+
+.card:hover span {
+  background: var(--c-s) !important;
+  color: var(--c-g-100) !important;
+}
+
+.card small {
+  margin-top: 1rem !important;
+  display: block !important;
+  font-weight: 300 !important;
+}
+
+/* /////////////////////////programs/////////////////////////// */
+
+.programs {
+  margin-top: 4rem !important;
+}
+
+.programs-wrapper {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  gap: 3rem !important;
+  margin-top: 4rem !important;
+}
+
+.programs__program a {
+  margin-top: 2.5rem !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.programs__program:hover a {
+  background: var(--c-s) !important;
+  color: var(--c-g-100) !important;
+}
+
+/* /////////////////////////Values/////////////////////////// */
+
+.values-container {
+  display: grid !important;
+  grid-template-columns: 38% 50% !important;
+  gap: 12% !important;
+}
+
+.values__image {
+  filter: saturate(0.25) !important;
+  transition: var(--t) !important;
+}
+
+.values__image:hover {
+  filter: saturate(1) !important;
+}
+
+.values__rghit > p {
+  margin: 1.5rem 0 5rem !important;
+}
+
+.values__wrapper {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 3.4rem 2.4rem !important;
+}
+
+.card.values__value {
+  padding-top: 3rem !important;
+  text-align: left !important;
+  position: relative !important;
+}
+
+.card.values__value span {
+  position: absolute !important;
+  top: -1.5rem !important;
+}
+
+/* /////////////////////////FAQs/////////////////////////// */
+
+.faqs__wrapper {
+  margin-top: 4rem !important;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 1.5rem 5rem !important;
+  align-items: flex-start !important;
+}
+
+.faq {
+  background: var(--c-g-500) !important;
+  padding: 2rem !important;
+  border-radius: 1rem !important;
+  cursor: pointer !important;
+}
+
+.faq div {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.faq__icon {
+  background: transparent !important;
+  color: var(--c-g-100) !important;
+  font-size: 1.5rem !important;
+}
+
+.faq p {
+  margin-top: 1.5rem !important;
+}
+
+/* /////////////////////////Testimonials/////////////////////////// */
+
+.testimonials {
+  width: 50rem !important;
+  margin-inline: auto !important;
+}
+
+.testimonials__head {
+  justify-content: center !important;
+}
+
+.card.testimonaial {
+  position: relative !important;
+  text-align: left !important;
+  margin-top: 5rem !important;
+}
+
+.testimonials__avater {
+  width: 4rem !important;
+  height: 4rem !important;
+  border-radius: 1.5rem !important;
+  border: 2px solid transparent !important;
+  overflow: hidden !important;
+  position: absolute !important;
+  top: -2rem !important;
+  left: calc(50% - 2rem) !important;
+  box-shadow: 0 1.5rem 2rem rgba(26, 26, 54, 0.4) !important;
+  transition: var(--t) !important;
+}
+.testimonaial:hover .testimonials__avater {
+  border-radius: 50% !important;
+  border-color: var(--c-g-400) !important;
+}
+
+.testimonaial__quote {
+  font-style: italic !important;
+  margin: 1rem 0 2rem !important;
+}
+
+.Card small.testimonaial__title {
+  margin-top: 0.3rem !important;
+}
+
+.testimonials__btn__container {
+  width: fit-content !important;
+  margin: 1.5rem auto !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 1rem !important;
+}
+
+.testimonials__btn {
+  background: transparent !important;
+  cursor: pointer !important;
+}
+
+.testimonials__btn svg {
+  fill: var(--c-p) !important;
+  font-size: 1.8rem !important;
+  width: 3rem !important;
+  height: 3rem !important;
+}
+
+/* /////////////////////////Footer/////////////////////////// */
+
+footer {
+  background: var(--c-p) !important;
+  margin-top: 7rem !important;
+  padding-top: 7rem !important;
+  font-size: 0.9rem !important;
+  color: var(--c-g-100) !important;
+}
+
+.footer__container {
+  display: grid !important;
+  grid-template-columns: 26rem 1fr 1fr 1fr !important;
+  gap: 6rem !important;
+}
+
+.footer__container article {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  gap: 0.7rem !important;
+}
+
+.footer__container article p {
+  margin-top: 0.5rem !important;
+}
+
+.footer__container article h4 {
+  margin-bottom: 0.6rem !important;
+  font-size: 1rem !important;
+}
+
+.footer__sociale {
+  margin-top: 1.5rem !important;
+  display: flex !important;
+  gap: 1rem !important;
+  align-items: center !important;
+}
+
+.footer__sociale a {
+  background: var(--c-g-100) !important;
+  padding: 0.7rem !important;
+  border: 1px solid transparent !important;
+  border-radius: 0.6rem !important;
+  transition: var(--t) !important;
+  width: 2.5rem !important;
+  height: 2.5rem !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.footer__sociale a svg {
+  color: var(--c-g-600) !important;
+}
+
+.footer__sociale a:hover {
+  border-color: var(--c-g-100) !important;
+  background: transparent !important;
+}
+
+.footer__copyright {
+  color: var(--c-g-100) !important;
+  text-align: center !important;
+  padding: 1.5rem 0 !important;
+  border-top: 2px solid var(--c-p-v) !important;
+}
+
+/* //////////////////MEDIA QUERIES//////////////////// */
+
+@media screen and (max-width: 1024px) {
+  /* main__header */
+  .main__header {
+    height: fit-content !important;
+    padding: 12rem 0 !important;
+  }
+  .main__header-container {
+    gap: 0 !important;
+  }
+  .main__header-circle {
+    width: 16rem !important;
+    height: 16rem !important;
+  }
+
+  /* programs */
+  .programs-wrapper {
+    grid-template-columns: 1fr 1fr !important;
+  }
+
+  /* Values */
+  .values-container {
+    grid-template-columns: 1fr !important;
+    justify-content: center !important;
+    gap: 4rem !important;
+  }
+  .values__wrapper {
+    gap: 4rem 3rem !important;
+  }
+  .values__left {
+    display: none !important;
+  }
+
+  /* FAQs */
+  .faqs__wrapper {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Testimonials */
+  .testimonials {
+    width: 75% !important;
+  }
+
+  /* Footer */
+  .footer__container {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 4rem !important;
+  }
+}
+/* ///////////////////// */
+
+@media screen and (max-width: 600px) {
+  /* main__header */
+  .main__header {
+    margin-top: 0 !important;
+    padding: 12rem 0 0 !important;
+    height: 100vh !important;
+  }
+  .main__header-image,
+  .main__header-circle {
+    display: none !important;
+  }
+  .main__header-container {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* programs */
+  .programs-wrapper {
+    grid-template-columns: 1fr !important;
+    gap: 2rem !important;
+    margin-top: 3rem !important;
+  }
+  .programs__program {
+    width: 85% !important;
+    margin: 0 auto !important;
+  }
+
+  /* Values */
+  .values__wrapper {
+    grid-template-columns: 1fr !important;
+    gap: 3rem !important;
+  }
+  .card.values__value {
+    width: 85% !important;
+    margin-inline: auto !important;
+  }
+
+  /* FAQs */
+  .faqs__wrapper {
+    gap: 1rem !important;
+    margin-top: 3rem !important;
+  }
+
+  /* Testimonials */
+  .testimonials {
+    width: 100% !important;
+  }
+
+  /* Footer */
+  footer {
+    margin-top: 7rem !important;
+  }
+  .footer__container {
+    grid-template-columns: 1fr !important;
+    gap: 3rem !important;
+  }
+  .footer__container article {
+    align-items: center !important;
+  }
+  .footer__container article p {
+    text-align: center !important;
+  }
+}

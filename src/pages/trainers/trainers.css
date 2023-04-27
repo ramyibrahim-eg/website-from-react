@@ -1,0 +1,63 @@
+/* All Rights Reserved. © disgin.website */
+
+.trainers__container {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 4rem !important;
+}
+
+.card.trainer {
+  padding: 1rem !important;
+}
+
+.trainer__img {
+  border-radius: 0 2rem !important;
+  overflow: hidden !important;
+}
+
+.trainer h3 {
+  margin-top: 2rem !important;
+}
+
+.trainer p {
+  margin-top: 0.5rem !important;
+}
+
+.trainer__socials {
+  display: flex !important;
+  gap: 1rem !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 2rem 0 !important;
+}
+
+.trainer__socials a {
+  font-size: 0.7rem !important;
+  background: var(--c-g-600) !important;
+  padding: 0.8rem !important;
+  border-radius: 0.7rem !important;
+  transition: var(--t) !important;
+}
+
+.trainer:hover a {
+  background: var(--c-g-500) !important;
+}
+
+/* //////////////////Trainers//////////////////// */
+@media screen and (max-width: 1024px) {
+  .trainers__container {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 2.5rem !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .trainers__container {
+    grid-template-columns: 1fr !important;
+    gap: 2rem !important;
+  }
+  .card.trainer {
+    width: 90% !important;
+    margin-inline: auto !important;
+  }
+}
