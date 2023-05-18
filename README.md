@@ -2,6 +2,6 @@
 ### Codes used
 #### HTML5, CSS, JS, BOOTSTRAP, React.js, react icons, localstorage
 
-Design demonstration video [the site](https://www.youtube.com/watch?v=2Ow0DI4jzRw).
+Explanatory video of  [website design](https://www.youtube.com/watch?v=2Ow0DI4jzRw).
 
 ![alt text](https://raw.githubusercontent.com/ramyibrahim-eg/website-from-react-/master/screenshot.png "Logo Website From React")
